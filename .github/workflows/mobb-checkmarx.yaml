@@ -39,7 +39,7 @@ jobs:
         shell: bash -l {0}
   
       - name: Run Checkmarx SAST scan
-        run: ./cx scan create --project-name ${{ github.repository }} -s ./ --report-format json --scan-types sast --branch nobranch  --threshold "sast-high=1" 
+        run: ./cx scan create --project-name ${{ github.repository }} -s ./ --report-format json --scan-types sast --branch nobranch --threshold "sast-high=1; sast-medium=1; sast-low=1" 
         shell: bash -l {0}
 
       - name: Run Mobb on the findings and get fixes
