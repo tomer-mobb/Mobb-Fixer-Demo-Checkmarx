@@ -8,7 +8,7 @@ Mobb Fixer monitors your pull requests for security issues and produces accurate
 >
 > 1. [Enable GitHub Actions](/../../actions) on this repo.
 >
->  2. Define **CX_TENANT**, **CX_API_TOKEN**, **CX_BASE_URI** and **CX_BASE_AUTH_URI** in the [repo's secrets page](/../../settings/secrets/actions) (more info [here](https://checkmarx.com/resource/documents/en/34965-68775-generating-a-refresh-token--api-key-.html)).
+> 2. Define **CX_TENANT**, **CX_API_TOKEN**, **CX_BASE_URI** and **CX_BASE_AUTH_URI** in the [repo's secrets page](/../../settings/secrets/actions) (more info [here](https://checkmarx.com/resource/documents/en/34965-68775-generating-a-refresh-token--api-key-.html)).
 
 Then, click below to see how automatic fixes on pull requests work:
 
