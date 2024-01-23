@@ -5,7 +5,7 @@ Mobb Fixer monitors your pull requests for security issues and produces accurate
 \
 \
 \
-First, [enable GitHub Actions](/../../actions) on this repo.
+👉 First, [enable GitHub Actions](/../../actions) on this repo.
 
 Then, define **CX_TENANT**, **CX_API_TOKEN**, **CX_BASE_URI** and **CX_BASE_AUTH_URI** in the [repo's secrets page](/../../settings/secrets/actions) (full instructions [here](https://checkmarx.com/resource/documents/en/34965-68775-generating-a-refresh-token--api-key-.html)).
 
